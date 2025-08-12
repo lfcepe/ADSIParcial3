@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Spotify Facts</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="https://www.spotify.com/" target="_blank" rel="noopener">
+      <img
+        class="logo"
+        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png"
+        alt="Logo de Spotify"
+        width="140"
+        height="42"
+      />
+    </a>
+    <nav class="nav">
+      <button id="goSpotify" class="btn btn-primary">Ir a Spotify</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Música que <span class="highlight">te mueve</span></h1>
+      <p>Explora datos curiosos y dale play a tu próxima obsesión musical.</p>
+      <div class="cta">
+        <a class="btn btn-ghost" href="https://www.spotify.com/" target="_blank" rel="noopener">Descubrir música</a>
+      </div>
+    </section>
+
+    <section class="stats-grid">
+      <article class="card">
+        <h2 class="stat" data-target="120">0</h2>
+        <p>latidos por minuto: un tempo pop súper común.</p>
+      </article>
+      <article class="card">
+        <h2 class="stat" data-target="4">0</h2>
+        <p>tiempos en compás 4/4: el rey de los ritmos modernos.</p>
+      </article>
+      <article class="card">
+        <h2 class="stat" data-target="3">0</h2>
+        <p>acordes básicos pueden bastar para un hit.</p>
+      </article>
+    </section>
+
+    <section class="facts">
+      <h2>Dato curioso</h2>
+      <p id="fact">Haz clic en “Otro dato” para sorprenderte 🎧</p>
+      <div class="actions">
+        <button id="anotherFact" class="btn">Otro dato</button>
+        <a class="btn btn-primary" href="https://www.spotify.com/" target="_blank" rel="noopener">Abrir Spotify</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>
+      Sitio de demostración (no oficial). Marca y logotipo pertenecen a sus respectivos propietarios.
+    </small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
