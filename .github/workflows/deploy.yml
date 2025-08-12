@@ -15,7 +15,7 @@ jobs:
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.ADSIParcial3 }}   
-          branch: gh-pages              
+          token: ${{ secrets.GH_PAT }}   
+          branch: main          
           folder: .                    
           clean: true
